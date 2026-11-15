@@ -1,38 +1,31 @@
 {
   "scriptVersion": 1,
-  "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "id": "jiye-phone",
+  "title": "捡手机 · 智艺的手机",
+  "description": "你捡到了 SEVENTEEN 第十四名成员 JiYe（朴智艺）不小心落在休息室沙发上的手机。翻看她的 KakaoTalk、微信、Weverse、备忘录、相册和日历，拼凑她作为『次十四』的日常：成员的打闹、写了一半的词曲草稿、和姑姑的暖心对话、练习生时期的旧友，还有藏在通讯录最底部的一段安静过往。浏览会触发不同的对话分支；看完所有内容后，她会发来消息询问手机的下落。",
+  "revision": 3,
   "phone": {
-    "owner": "机主",
-    "date": "2026-10-25",
-    "time": "09:41",
-    "battery": 94,
+    "owner": "JiYe（朴智艺）",
+    "date": "2026-11-15",
+    "time": "19:41",
+    "passcode": "",
+    "wallpaper": "apple-wwdc26",
+    "theme": "light",
+    "battery": 67,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "notifications": true
   },
   "installedApps": [
     "appstore",
     {
-      "id": "wechat",
-      "name": "微信",
+      "id": "phone",
+      "name": "电话",
       "installed": true,
       "visible": true,
-      "dock": false,
+      "dock": true,
       "folder": "",
       "icon": ""
     },
-    {
-      "id": "douyin",
-      "name": "抖音",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
-    "phone",
     "messages",
     "contacts",
     "photos",
@@ -45,655 +38,2007 @@
       "folder": "",
       "icon": ""
     },
-    "safari",
+    {
+      "id": "safari",
+      "name": "Naver",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
     "notes",
     "calendar",
-    "mail",
     "clock",
     "reminders",
-    "files",
-    "music",
-    "maps",
-    "weather",
     "wallet",
+    "weather",
+    "maps",
     "health",
     "find",
-    "calculator",
-    "settings",
-    "qq",
-    "weibo",
-    "redbook",
-    "bilibili",
-    "alipay",
-    "taobao",
-    "netease",
-    "delivery",
-    "forum",
-    "whatsapp",
-    "instagram",
-    "tiktok",
-    "twitter",
-    "telegram",
-    "discord",
-    "youtube",
-    "line",
-    "snapchat",
-    "facebook",
-    "messenger",
-    "reddit",
+    "music",
     "spotify",
+    "youtube",
+    "tiktok",
     "netflix",
-    "pinterest",
-    "threads",
-    "kakao"
+    {
+      "id": "wechat",
+      "name": "微信",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "kakao",
+      "name": "KakaoTalk",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    "instagram",
+    {
+      "id": "forum",
+      "name": "Weverse",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "twitter",
+      "name": "X",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "taobao",
+      "name": "Coupang",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "delivery",
+      "name": "Baemin",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    "settings"
   ],
   "contacts": [
     {
-      "id": "test-contact",
-      "name": "测试联系人",
-      "phone": "",
-      "bio": "这是一条测试内容。"
+      "id": "dad",
+      "name": "爸爸",
+      "phone": "+852-6000-0101",
+      "bio": "李夏璘的父亲，叮嘱她少喝冰美式。"
+    },
+    {
+      "id": "mom",
+      "name": "妈妈",
+      "phone": "+82-10-0000-0102",
+      "bio": "韩国人，会寄参鸡汤，看女儿舞台看三遍。"
+    },
+    {
+      "id": "julie",
+      "name": "姑姑 Julie（李嘉瑶）",
+      "phone": "+852-6000-0192",
+      "bio": "1970年生，1992年出道，香港影视歌三栖『香港明珠』。把夏璘当亲生女儿疼。"
+    },
+    {
+      "id": "scoups",
+      "name": "崔胜澈",
+      "phone": "+82-10-0000-0801",
+      "bio": "队长。总叮嘱夏璘注意身体。"
+    },
+    {
+      "id": "jeonghan",
+      "name": "尹净汉",
+      "phone": "+82-10-0000-1004",
+      "bio": "温柔，爱分享日常趣事（和记仇）。"
+    },
+    {
+      "id": "joshua",
+      "name": "洪知秀 Josh",
+      "phone": "+82-10-0000-1230",
+      "bio": "和夏璘一起聊音乐、写和弦。"
+    },
+    {
+      "id": "jun",
+      "name": "文俊辉",
+      "phone": "+86-138-0000-0610",
+      "bio": "同乡，私下用微信聊天。"
+    },
+    {
+      "id": "hoshi",
+      "name": "权顺荣 Hoshi",
+      "phone": "+82-10-0000-0615",
+      "bio": "拉着夏璘打游戏、练舞（horanghae）。"
+    },
+    {
+      "id": "wonwoo",
+      "name": "全圆佑",
+      "phone": "+82-10-0000-0717",
+      "bio": "PUBG / 英雄联盟双排搭子。"
+    },
+    {
+      "id": "woozi",
+      "name": "李知勋 Woozi",
+      "phone": "+82-10-0000-1122",
+      "bio": "一起写歌的人，云端记录会说话。"
+    },
+    {
+      "id": "the8",
+      "name": "徐明浩 The8",
+      "phone": "+82-10-0000-1107",
+      "bio": "交流舞蹈和审美，录像对比法。"
+    },
+    {
+      "id": "mingyu",
+      "name": "金珉奎",
+      "phone": "+82-10-0000-0406",
+      "bio": "经常投喂夏璘（拉面、饼干）。"
+    },
+    {
+      "id": "dk",
+      "name": "李硕珉 DK",
+      "phone": "+82-10-0000-0218",
+      "bio": "分享开心的小事，消消乐对手。"
+    },
+    {
+      "id": "seungkwan",
+      "name": "夫胜宽",
+      "phone": "+82-10-0000-0116",
+      "bio": "吐槽和唠嗑担当，梗图供应商。"
+    },
+    {
+      "id": "vernon",
+      "name": "崔瀚率 Vernon",
+      "phone": "+82-10-0000-0218",
+      "bio": "分享外文、外网内容。"
+    },
+    {
+      "id": "dino",
+      "name": "李灿 Dino",
+      "phone": "+82-10-0000-0299",
+      "bio": "忙内，经常黏着夏璘。"
+    },
+    {
+      "id": "jieqiong",
+      "name": "周洁琼",
+      "phone": "+86-138-0000-1212",
+      "bio": "Pledis 练习生同期，苦日子里的战友。"
+    },
+    {
+      "id": "nayoung",
+      "name": "林娜荣",
+      "phone": "+86-138-0000-1109",
+      "bio": "Pledis 同门前辈，练习室的钥匙和鸡蛋。"
+    },
+    {
+      "id": "bambam",
+      "name": "BamBam（GOT7）",
+      "phone": "+66-81-000-0977",
+      "bio": "97line 好友，互相卷舞台。"
+    },
+    {
+      "id": "jungwoo",
+      "name": "金廷祐（NCT）",
+      "phone": "+82-10-0000-0219",
+      "bio": "97line 好友，甜品店情报员。"
+    },
+    {
+      "id": "manager",
+      "name": "洪室长（经纪人）",
+      "phone": "+82-10-0000-7777",
+      "bio": "行程管理员，找手机专家。"
+    },
+    {
+      "id": "michi",
+      "name": "michi",
+      "phone": "+81-90-0000-2020",
+      "bio": "安静的一段过往。"
     }
   ],
   "chats": [
     {
-      "id": "test-chat-messages",
-      "app": "messages",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-wechat",
-      "app": "wechat",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-wechat",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-qq",
-      "app": "qq",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-qq",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-whatsapp",
-      "app": "whatsapp",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-whatsapp",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-telegram",
-      "app": "telegram",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-telegram",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-discord",
-      "app": "discord",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-discord",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-line",
-      "app": "line",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-line",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-messenger",
-      "app": "messenger",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messenger",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-kakao",
+      "id": "chat-k-group",
       "app": "kakao",
-      "title": "测试会话",
+      "title": "SEVENTEEN 🐰",
       "participants": [
-        "owner",
-        "test-contact"
+        "scoups",
+        "jeonghan",
+        "joshua",
+        "jun",
+        "hoshi",
+        "wonwoo",
+        "woozi",
+        "the8",
+        "mingyu",
+        "dk",
+        "seungkwan",
+        "vernon",
+        "dino",
+        "owner"
       ],
       "messages": [
         {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
+          "id": "kg-1",
+          "body": "明天打歌完了直接回宿舍，谁都不许乱跑。",
+          "senderId": "scoups",
+          "time": "2026-11-14 20:12"
         },
         {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
-          "senderId": "owner"
+          "id": "kg-2",
+          "body": "队长说得对，但今晚游戏除外。",
+          "senderId": "hoshi",
+          "time": "2026-11-14 20:13"
+        },
+        {
+          "id": "kg-3",
+          "body": "哥你现在说话像我妈。",
+          "senderId": "seungkwan",
+          "time": "2026-11-14 20:14"
+        },
+        {
+          "id": "kg-4",
+          "body": "哥我是最乖的。",
+          "senderId": "dino",
+          "time": "2026-11-14 20:14"
+        },
+        {
+          "id": "kg-5",
+          "body": "我十点前一定睡（大概）",
+          "senderId": "owner",
+          "time": "2026-11-14 20:20"
+        },
+        {
+          "id": "kg-6",
+          "body": "（大概）是什么意思。",
+          "senderId": "woozi",
+          "time": "2026-11-14 20:21"
+        },
+        {
+          "id": "kg-7",
+          "body": "我煮了拉面，给夏璘留了一份在锅里。",
+          "senderId": "mingyu",
+          "time": "2026-11-14 20:25"
+        },
+        {
+          "id": "kg-8",
+          "body": "珉奎欧巴是世界上最好的哥哥",
+          "senderId": "owner",
+          "time": "2026-11-14 20:26"
+        },
+        {
+          "id": "kg-9",
+          "body": "smooth.",
+          "senderId": "vernon",
+          "time": "2026-11-14 20:30"
+        }
+      ]
+    },
+    {
+      "id": "chat-k-scoups",
+      "app": "kakao",
+      "title": "崔胜澈",
+      "participants": [
+        "scoups",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "ks-1",
+          "body": "夏璘啊，明天舞台你 part 前面那个转身慢半拍也没关系，跟着音乐来。",
+          "senderId": "scoups",
+          "time": "2026-11-14 21:03"
+        },
+        {
+          "id": "ks-2",
+          "body": "降温了，练完舞别直接吹空调。你上次嗓子哑了忘了吗？",
+          "senderId": "scoups",
+          "time": "2026-11-14 21:04"
+        },
+        {
+          "id": "ks-3",
+          "body": "记住了队长兄！热嗓子三件套已经备好",
+          "senderId": "owner",
+          "time": "2026-11-14 21:10"
+        },
+        {
+          "id": "ks-4",
+          "body": "今天人气歌谣完了叫室长送你们回宿舍，别自己乱打车。",
+          "senderId": "scoups",
+          "time": "2026-11-15 08:15"
+        },
+        {
+          "id": "ks-5",
+          "body": "收到～队长兄也辛苦了，你的嗓子也保护一下。",
+          "senderId": "owner",
+          "time": "2026-11-15 08:20"
+        }
+      ]
+    },
+    {
+      "id": "chat-k-jeonghan",
+      "app": "kakao",
+      "title": "尹净汉",
+      "participants": [
+        "jeonghan",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kj-1",
+          "body": "夏璘，发型师说你新发型像小时候的娃娃。我看了照片，确实。",
+          "senderId": "jeonghan",
+          "time": "2026-11-14 18:44"
+        },
+        {
+          "id": "kj-2",
+          "body": "净汉欧巴你是在夸我吗",
+          "senderId": "owner",
+          "time": "2026-11-14 18:50"
+        },
+        {
+          "id": "kj-3",
+          "body": "当然是夸你。不过娃娃会抢我零食吗？",
+          "senderId": "jeonghan",
+          "time": "2026-11-14 18:51"
+        },
+        {
+          "id": "kj-4",
+          "body": "……那是上上次的事了",
+          "senderId": "owner",
+          "time": "2026-11-14 18:52"
+        },
+        {
+          "id": "kj-5",
+          "body": "我的记仇簿很长🙂",
+          "senderId": "jeonghan",
+          "time": "2026-11-14 18:53"
+        },
+        {
+          "id": "kj-6",
+          "body": "一会儿舞台结束来我房间，CARAT 寄的饼干给你留了一盒。",
+          "senderId": "jeonghan",
+          "time": "2026-11-15 09:02"
+        }
+      ]
+    },
+    {
+      "id": "chat-k-joshua",
+      "app": "kakao",
+      "title": "洪知秀 Josh",
+      "participants": [
+        "joshua",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kjo-1",
+          "body": "给你听这首，副歌的和弦我觉得很适合你的声音。",
+          "senderId": "joshua",
+          "time": "2026-11-13 22:10"
+        },
+        {
+          "id": "kjo-2",
+          "body": "前奏一进来就起鸡皮疙瘩了，谁写的？",
+          "senderId": "owner",
+          "time": "2026-11-13 22:20"
+        },
+        {
+          "id": "kjo-3",
+          "body": "我上个月写的，一直没找到合适的人。你要不要试两句？",
+          "senderId": "joshua",
+          "time": "2026-11-13 22:22"
+        },
+        {
+          "id": "kjo-4",
+          "body": "要！明天练习室见，我带小本子",
+          "senderId": "owner",
+          "time": "2026-11-13 22:30"
+        },
+        {
+          "id": "kjo-5",
+          "body": "你那个写满涂鸦的小本子哈哈。好，明天见。",
+          "senderId": "joshua",
+          "time": "2026-11-13 22:31"
+        }
+      ]
+    },
+    {
+      "id": "chat-k-hoshi",
+      "app": "kakao",
+      "title": "权顺荣 Hoshi",
+      "participants": [
+        "hoshi",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kh-1",
+          "body": "10！夏璘！今天 horanghae 练了吗",
+          "senderId": "hoshi",
+          "time": "2026-11-15 10:02"
+        },
+        {
+          "id": "kh-2",
+          "body": "练了练了，虎爪也补上了🐯",
+          "senderId": "owner",
+          "time": "2026-11-15 10:05"
+        },
+        {
+          "id": "kh-3",
+          "body": "很好。今晚舞台结束我看录像给你打分。",
+          "senderId": "hoshi",
+          "time": "2026-11-15 10:06"
+        },
+        {
+          "id": "kh-4",
+          "body": "顺便，晚上打游戏缺一个人，来不来",
+          "senderId": "hoshi",
+          "time": "2026-11-15 10:07"
+        },
+        {
+          "id": "kh-5",
+          "body": "来！但是输了我可不请奶茶",
+          "senderId": "owner",
+          "time": "2026-11-15 10:10"
+        },
+        {
+          "id": "kh-6",
+          "body": "那你最好赢🙂",
+          "senderId": "hoshi",
+          "time": "2026-11-15 10:11"
+        }
+      ]
+    },
+    {
+      "id": "chat-k-wonwoo",
+      "app": "kakao",
+      "title": "全圆佑",
+      "participants": [
+        "wonwoo",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kw-1",
+          "body": "晚上九点，双排。新皮肤我给你也买了一个。",
+          "senderId": "wonwoo",
+          "time": "2026-11-15 12:00"
+        },
+        {
+          "id": "kw-2",
+          "body": "圆佑欧巴我可以拒绝吗（不能）",
+          "senderId": "owner",
+          "time": "2026-11-15 12:03"
+        },
+        {
+          "id": "kw-3",
+          "body": "不能。另外新赛季你那个英雄削了，换我推荐你的那个。",
+          "senderId": "wonwoo",
+          "time": "2026-11-15 12:04"
+        },
+        {
+          "id": "kw-4",
+          "body": "……好吧，九点见，这次我一定不坑",
+          "senderId": "owner",
+          "time": "2026-11-15 12:06"
+        },
+        {
+          "id": "kw-5",
+          "body": "你上一次也这么说。",
+          "senderId": "wonwoo",
+          "time": "2026-11-15 12:07"
+        },
+        {
+          "id": "kw-6",
+          "body": "不过没关系，坑了也算陪我玩🙂",
+          "senderId": "wonwoo",
+          "time": "2026-11-15 12:07"
+        }
+      ]
+    },
+    {
+      "id": "chat-k-woozi",
+      "app": "kakao",
+      "title": "李知勋 Woozi",
+      "participants": [
+        "woozi",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kz-1",
+          "body": "《明珠》的 demo 我听了，副歌那句你留的哼唱很好，别改。",
+          "senderId": "woozi",
+          "time": "2026-11-15 14:30"
+        },
+        {
+          "id": "kz-2",
+          "body": "真的吗！我总觉得那里有点空",
+          "senderId": "owner",
+          "time": "2026-11-15 14:36"
+        },
+        {
+          "id": "kz-3",
+          "body": "空的地方是留给呼吸的。明天下午三点制作会议，带上你的词。",
+          "senderId": "woozi",
+          "time": "2026-11-15 14:38"
+        },
+        {
+          "id": "kz-4",
+          "body": "好！我把新写的那段也带上",
+          "senderId": "owner",
+          "time": "2026-11-15 14:40"
+        },
+        {
+          "id": "kz-5",
+          "body": "嗯。还有，别又熬夜写歌。昨晚三点你还在改。",
+          "senderId": "woozi",
+          "time": "2026-11-15 14:41"
+        },
+        {
+          "id": "kz-6",
+          "body": "知勋欧巴你怎么知道……",
+          "senderId": "owner",
+          "time": "2026-11-15 14:43"
+        },
+        {
+          "id": "kz-7",
+          "body": "云端协作记录会说话。",
+          "senderId": "woozi",
+          "time": "2026-11-15 14:44"
+        }
+      ]
+    },
+    {
+      "id": "chat-k-the8",
+      "app": "kakao",
+      "title": "徐明浩 The8",
+      "participants": [
+        "the8",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kt-1",
+          "body": "今天你那个 wave 比上周干净多了，我录了对比视频，明早发你。",
+          "senderId": "the8",
+          "time": "2026-11-15 11:20"
+        },
+        {
+          "id": "kt-2",
+          "body": "谢谢明浩哥！镜子前看不太出来，视频一对比就清楚了",
+          "senderId": "owner",
+          "time": "2026-11-15 11:25"
+        },
+        {
+          "id": "kt-3",
+          "body": "对，练舞要看录像。另外你那条围巾审美进步了，谁教的？",
+          "senderId": "the8",
+          "time": "2026-11-15 11:26"
+        },
+        {
+          "id": "kt-4",
+          "body": "是……和你以前的教程 🙂",
+          "senderId": "owner",
+          "time": "2026-11-15 11:30"
+        },
+        {
+          "id": "kt-5",
+          "body": "孺子可教。",
+          "senderId": "the8",
+          "time": "2026-11-15 11:31"
+        }
+      ]
+    },
+    {
+      "id": "chat-k-mingyu",
+      "app": "kakao",
+      "title": "金珉奎",
+      "participants": [
+        "mingyu",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "km-1",
+          "body": "锅里给你留了拉面，加了蛋，回来记得吃。",
+          "senderId": "mingyu",
+          "time": "2026-11-14 22:40"
+        },
+        {
+          "id": "km-2",
+          "body": "珉奎欧巴！我已经在吃胜利 spread 了，但还是想吃你煮的",
+          "senderId": "owner",
+          "time": "2026-11-14 22:45"
+        },
+        {
+          "id": "km-3",
+          "body": "那你快回来，凉了就不好吃了。",
+          "senderId": "mingyu",
+          "time": "2026-11-14 22:46"
+        },
+        {
+          "id": "km-4",
+          "body": "对了明天我烤了饼干，彩排时候给你一块，别告诉胜宽。",
+          "senderId": "mingyu",
+          "time": "2026-11-15 09:30"
+        },
+        {
+          "id": "km-5",
+          "body": "为什么不能告诉胜宽哥？",
+          "senderId": "owner",
+          "time": "2026-11-15 09:32"
+        },
+        {
+          "id": "km-6",
+          "body": "因为他会吃掉七块。",
+          "senderId": "mingyu",
+          "time": "2026-11-15 09:33"
+        }
+      ]
+    },
+    {
+      "id": "chat-k-dk",
+      "app": "kakao",
+      "title": "李硕珉 DK",
+      "participants": [
+        "dk",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kd-1",
+          "body": "夏璘！！今天电梯里遇到一只超可爱的狗，我拍下来了但是拍糊了！",
+          "senderId": "dk",
+          "time": "2026-11-15 13:02"
+        },
+        {
+          "id": "kd-2",
+          "body": "哈哈哈哈硕珉哥的摄影技术十年如一日",
+          "senderId": "owner",
+          "time": "2026-11-15 13:05"
+        },
+        {
+          "id": "kd-3",
+          "body": "我这叫抽象派！另外你那个消消乐打到第几关了？",
+          "senderId": "dk",
+          "time": "2026-11-15 13:06"
+        },
+        {
+          "id": "kd-4",
+          "body": "523 关，你呢",
+          "senderId": "owner",
+          "time": "2026-11-15 13:08"
+        },
+        {
+          "id": "kd-5",
+          "body": "521！你等着，我今晚一定超过你",
+          "senderId": "dk",
+          "time": "2026-11-15 13:09"
+        },
+        {
+          "id": "kd-6",
+          "body": "（五分钟后）522 了！！",
+          "senderId": "dk",
+          "time": "2026-11-15 13:14"
+        },
+        {
+          "id": "kd-7",
+          "body": "硕珉哥你到底是在录音还是在玩游戏",
+          "senderId": "owner",
+          "time": "2026-11-15 13:15"
+        }
+      ]
+    },
+    {
+      "id": "chat-k-seungkwan",
+      "app": "kakao",
+      "title": "夫胜宽",
+      "participants": [
+        "seungkwan",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "ksw-1",
+          "body": "夏璘，看这个梗图，胜澈哥跳舞的表情包又更新了",
+          "senderId": "seungkwan",
+          "time": "2026-11-15 15:40"
+        },
+        {
+          "id": "ksw-2",
+          "body": "哈哈哈哈第 37 张了，我的收藏夹已经叫『队长图鉴』",
+          "senderId": "owner",
+          "time": "2026-11-15 15:44"
+        },
+        {
+          "id": "ksw-3",
+          "body": "明天我打算发到成员群，你负责假装不知道",
+          "senderId": "seungkwan",
+          "time": "2026-11-15 15:45"
+        },
+        {
+          "id": "ksw-4",
+          "body": "好，我演技很好的，毕竟天天看硕珉哥演",
+          "senderId": "owner",
+          "time": "2026-11-15 15:47"
+        },
+        {
+          "id": "ksw-5",
+          "body": "喂，这句也在吐槽范围内！",
+          "senderId": "seungkwan",
+          "time": "2026-11-15 15:48"
+        }
+      ]
+    },
+    {
+      "id": "chat-k-vernon",
+      "app": "kakao",
+      "title": "崔瀚率 Vernon",
+      "participants": [
+        "vernon",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kv-1",
+          "body": "yo 这张专辑听了吗，the beat 那段疯了",
+          "senderId": "vernon",
+          "time": "2026-11-14 23:00"
+        },
+        {
+          "id": "kv-2",
+          "body": "听了！第二首前奏直接把我带走",
+          "senderId": "owner",
+          "time": "2026-11-14 23:10"
+        },
+        {
+          "id": "kv-3",
+          "body": "right. 我找到了完整版歌词发你，那句 punchline 我抄了",
+          "senderId": "vernon",
+          "time": "2026-11-14 23:12"
+        },
+        {
+          "id": "kv-4",
+          "body": "抄歌词王瀚率，写歌记得注明出处哈哈",
+          "senderId": "owner",
+          "time": "2026-11-14 23:15"
+        },
+        {
+          "id": "kv-5",
+          "body": "lol fair.",
+          "senderId": "vernon",
+          "time": "2026-11-14 23:16"
+        }
+      ]
+    },
+    {
+      "id": "chat-k-dino",
+      "app": "kakao",
+      "title": "李灿 Dino",
+      "participants": [
+        "dino",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kn-1",
+          "body": "姐！今天我练完舞，看到休息室沙发上的抱枕好像你，就拍下来了",
+          "senderId": "dino",
+          "time": "2026-11-15 16:20"
+        },
+        {
+          "id": "kn-2",
+          "body": "？？？我是抱枕吗",
+          "senderId": "owner",
+          "time": "2026-11-15 16:23"
+        },
+        {
+          "id": "kn-3",
+          "body": "不是，是说抱枕的花色和你今天穿搭很像哈哈",
+          "senderId": "dino",
+          "time": "2026-11-15 16:24"
+        },
+        {
+          "id": "kn-4",
+          "body": "姐你手机别又落在休息室了，上次是雨伞，上上次是护膝",
+          "senderId": "dino",
+          "time": "2026-11-15 16:25"
+        },
+        {
+          "id": "kn-5",
+          "body": "……李灿你能不能记住点别的事",
+          "senderId": "owner",
+          "time": "2026-11-15 16:28"
+        },
+        {
+          "id": "kn-6",
+          "body": "不能，我只记舞蹈动作🫠",
+          "senderId": "dino",
+          "time": "2026-11-15 16:29"
+        }
+      ]
+    },
+    {
+      "id": "chat-k-julie",
+      "app": "kakao",
+      "title": "姑姑 Julie",
+      "participants": [
+        "julie",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kgu-1",
+          "body": "夏璘，姑姑看了你的舞台直拍，转了三圈。郭先生说再转他要把手机没收了。",
+          "senderId": "julie",
+          "time": "2026-11-14 22:41"
+        },
+        {
+          "id": "kgu-2",
+          "body": "哈哈哈哈姑丈好可爱，替我向他问好！",
+          "senderId": "owner",
+          "time": "2026-11-14 22:50"
+        },
+        {
+          "id": "kgu-3",
+          "body": "他说『好』。然后问你什么时候回香港，锅贴给你留着。",
+          "senderId": "julie",
+          "time": "2026-11-14 22:52"
+        },
+        {
+          "id": "kgu-4",
+          "body": "12 月中应该有几天假期！我一定回，还要去你家蹭饭",
+          "senderId": "owner",
+          "time": "2026-11-14 22:56"
+        },
+        {
+          "id": "kgu-5",
+          "body": "一言为定。对了，你上次说写的那些随笔，姑姑很想看。",
+          "senderId": "julie",
+          "time": "2026-11-14 23:00"
+        },
+        {
+          "id": "kgu-6",
+          "body": "密码还是老规矩——你正式出道那一年。姑姑相信你写的东西，总有一天会让很多人流泪，也会让很多人暖起来。",
+          "senderId": "julie",
+          "time": "2026-11-14 23:01"
+        },
+        {
+          "id": "kgu-7",
+          "body": "姑姑……我写完一定第一个给你看。",
+          "senderId": "owner",
+          "time": "2026-11-14 23:10"
+        },
+        {
+          "id": "kgu-8",
+          "body": "不急。姑姑等了三十年才等到你也走上这条路，不差这几页纸。",
+          "senderId": "julie",
+          "time": "2026-11-14 23:15"
+        }
+      ]
+    },
+    {
+      "id": "chat-k-dad",
+      "app": "kakao",
+      "title": "爸爸",
+      "participants": [
+        "dad",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kfa-1",
+          "body": "夏璘，天冷了记得加衣。你胃不好，冰美式少喝。",
+          "senderId": "dad",
+          "time": "2026-11-15 08:00"
+        },
+        {
+          "id": "kfa-2",
+          "body": "知道啦爸，今天喝的是热的！",
+          "senderId": "owner",
+          "time": "2026-11-15 08:10"
+        },
+        {
+          "id": "kfa-3",
+          "body": "热的也少喝，咖啡因影响睡眠。你妈妈昨晚又看你的舞台看了三遍。",
+          "senderId": "dad",
+          "time": "2026-11-15 08:12"
+        },
+        {
+          "id": "kfa-4",
+          "body": "让妈妈别熬夜～我下周给她打电话",
+          "senderId": "owner",
+          "time": "2026-11-15 08:15"
+        },
+        {
+          "id": "kfa-5",
+          "body": "好。累了就回家，家里的门一直开着。",
+          "senderId": "dad",
+          "time": "2026-11-15 08:16"
+        }
+      ]
+    },
+    {
+      "id": "chat-k-mom",
+      "app": "kakao",
+      "title": "妈妈",
+      "participants": [
+        "mom",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kmo-1",
+          "body": "夏璘啊，参鸡汤喝了吗？我给你寄的那箱到了吗？",
+          "senderId": "mom",
+          "time": "2026-11-15 12:30"
+        },
+        {
+          "id": "kmo-2",
+          "body": "到了到了，昨天珉奎哥帮我搬上楼，已经喝了两袋！",
+          "senderId": "owner",
+          "time": "2026-11-15 12:40"
+        },
+        {
+          "id": "kmo-3",
+          "body": "好，剩下的分给哥哥们。对了，你姑姑说你瘦了。",
+          "senderId": "mom",
+          "time": "2026-11-15 12:41"
+        },
+        {
+          "id": "kmo-4",
+          "body": "妈妈～公司伙食很好的，是舞台服改小了！",
+          "senderId": "owner",
+          "time": "2026-11-15 12:45"
+        },
+        {
+          "id": "kmo-5",
+          "body": "改小了也要吃。晚上十点前睡，听到没有？",
+          "senderId": "mom",
+          "time": "2026-11-15 12:46"
+        },
+        {
+          "id": "kmo-6",
+          "body": "听到了听到了，妈妈晚安，爱你 💛",
+          "senderId": "owner",
+          "time": "2026-11-15 12:48"
+        },
+        {
+          "id": "kmo-7",
+          "body": "爱你。",
+          "senderId": "mom",
+          "time": "2026-11-15 12:48"
+        }
+      ]
+    },
+    {
+      "id": "chat-k-bambam",
+      "app": "kakao",
+      "title": "BamBam",
+      "participants": [
+        "bambam",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kb-1",
+          "body": "夏璘~ 今天你们的舞台我刷到了，那个 ending 定点绝了！",
+          "senderId": "bambam",
+          "time": "2026-11-15 14:00"
+        },
+        {
+          "id": "kb-2",
+          "body": "BamBam 哥！你们下周回归我也蹲了首播，打歌服好帅",
+          "senderId": "owner",
+          "time": "2026-11-15 14:05"
+        },
+        {
+          "id": "kb-3",
+          "body": "哈哈到时候给你寄签名专辑。97line 的荣耀不能输。",
+          "senderId": "bambam",
+          "time": "2026-11-15 14:06"
+        },
+        {
+          "id": "kb-4",
+          "body": "那我先把预祝大发的横幅挂起来！",
+          "senderId": "owner",
+          "time": "2026-11-15 14:10"
+        },
+        {
+          "id": "kb-5",
+          "body": "对，就这样，互相卷起来 💪",
+          "senderId": "bambam",
+          "time": "2026-11-15 14:11"
+        }
+      ]
+    },
+    {
+      "id": "chat-k-jungwoo",
+      "app": "kakao",
+      "title": "金廷祐",
+      "participants": [
+        "jungwoo",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kjw-1",
+          "body": "夏璘姐，上次说的那家甜品店我去了，真的好吃，坐标发你。",
+          "senderId": "jungwoo",
+          "time": "2026-11-15 17:00"
+        },
+        {
+          "id": "kjw-2",
+          "body": "廷祐哥快发！我明天休息日就去",
+          "senderId": "owner",
+          "time": "2026-11-15 17:05"
+        },
+        {
+          "id": "kjw-3",
+          "body": "小心排队，我排了四十分钟。",
+          "senderId": "jungwoo",
+          "time": "2026-11-15 17:06"
+        },
+        {
+          "id": "kjw-4",
+          "body": "四十分钟算什么，我们练习生时期食堂队伍更长 😂",
+          "senderId": "owner",
+          "time": "2026-11-15 17:10"
+        },
+        {
+          "id": "kjw-5",
+          "body": "哈哈哈那倒是，前辈们都在队伍里练过耐心。",
+          "senderId": "jungwoo",
+          "time": "2026-11-15 17:11"
+        }
+      ]
+    },
+    {
+      "id": "chat-k-manager",
+      "app": "kakao",
+      "title": "洪室长",
+      "participants": [
+        "manager",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kmg-1",
+          "body": "明日 6:00 酒店大堂集合，6:30 到台里上班，下午 3:00 与知勋的制作会议，晚上 8:00 全员直播。",
+          "senderId": "manager",
+          "time": "2026-11-15 07:00"
+        },
+        {
+          "id": "kmg-2",
+          "body": "收到室长！我都记在日历里了",
+          "senderId": "owner",
+          "time": "2026-11-15 07:05"
+        },
+        {
+          "id": "kmg-3",
+          "body": "今晚手机充满电。别再落在休息室了，上次找到你花了四十分钟。",
+          "senderId": "manager",
+          "time": "2026-11-15 07:06"
+        },
+        {
+          "id": "kmg-4",
+          "body": "一定一定，这次我贴了手机链！",
+          "senderId": "owner",
+          "time": "2026-11-15 07:10"
+        },
+        {
+          "id": "kmg-5",
+          "body": "好，早点休息。",
+          "senderId": "manager",
+          "time": "2026-11-15 07:11"
+        }
+      ]
+    },
+    {
+      "id": "chat-w-jun",
+      "app": "wechat",
+      "title": "文俊辉",
+      "participants": [
+        "jun",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "wj-1",
+          "body": "夏璘，得闲饮茶，寻日嗰间店我帮你留咗虾饺。",
+          "senderId": "jun",
+          "time": "2026-11-15 14:20"
+        },
+        {
+          "id": "wj-2",
+          "body": "辉哥唔好咁好啦，我今晚彩排完先睇下时间",
+          "senderId": "owner",
+          "time": "2026-11-15 14:30"
+        },
+        {
+          "id": "wj-3",
+          "body": "唔急，我喺首尔又唔会走，哈哈。妈咪问你冬至返唔返香港。",
+          "senderId": "jun",
+          "time": "2026-11-15 14:32"
+        },
+        {
+          "id": "wj-4",
+          "body": "应该会返几日！到时一齐去饮早茶",
+          "senderId": "owner",
+          "time": "2026-11-15 14:38"
+        },
+        {
+          "id": "wj-5",
+          "body": "好，帮我带两包即食面返嚟，首尔买唔到嗰个牌。",
+          "senderId": "jun",
+          "time": "2026-11-15 14:40"
+        }
+      ]
+    },
+    {
+      "id": "chat-w-jieqiong",
+      "app": "wechat",
+      "title": "周洁琼",
+      "participants": [
+        "jieqiong",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "wjq-1",
+          "body": "夏璘，今天路过明洞那家我们以前常去的部队锅，想起 2015 年我们三个人挤一张桌子。",
+          "senderId": "jieqiong",
+          "time": "2026-11-15 18:00"
+        },
+        {
+          "id": "wjq-2",
+          "body": "洁琼姐！那时候娜荣姐总把鸡蛋拨给我，自己只吃面",
+          "senderId": "owner",
+          "time": "2026-11-15 18:08"
+        },
+        {
+          "id": "wjq-3",
+          "body": "因为那时候公司发不出工资，鸡蛋限量啊哈哈。现在想想，苦日子里长出来的感情最结实。",
+          "senderId": "jieqiong",
+          "time": "2026-11-15 18:10"
+        },
+        {
+          "id": "wjq-4",
+          "body": "嗯，我现在每次吃部队锅都会多点一份鸡蛋。",
+          "senderId": "owner",
+          "time": "2026-11-15 18:15"
+        },
+        {
+          "id": "wjq-5",
+          "body": "好孩子。周末一起吃饭吧，娜荣也想见你。",
+          "senderId": "jieqiong",
+          "time": "2026-11-15 18:16"
+        }
+      ]
+    },
+    {
+      "id": "chat-w-nayoung",
+      "app": "wechat",
+      "title": "林娜荣",
+      "participants": [
+        "nayoung",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "wny-1",
+          "body": "夏璘，练习室钥匙你那边还有吗？我想带公司新人去看看前辈待过的地方。",
+          "senderId": "nayoung",
+          "time": "2026-11-15 18:30"
+        },
+        {
+          "id": "wny-2",
+          "body": "有的！钥匙我还留着，不过已经换了新锁哈哈",
+          "senderId": "owner",
+          "time": "2026-11-15 18:36"
+        },
+        {
+          "id": "wny-3",
+          "body": "那就带他们看看走廊的照片墙。你那张 2014 年的合影我还记得，所有人都在笑。",
+          "senderId": "nayoung",
+          "time": "2026-11-15 18:38"
+        },
+        {
+          "id": "wny-4",
+          "body": "那张照片其实就存在我手机里，一直没舍得删。",
+          "senderId": "owner",
+          "time": "2026-11-15 18:45"
+        },
+        {
+          "id": "wny-5",
+          "body": "别删。那是我们共同的证据——证明我们都熬过来了。",
+          "senderId": "nayoung",
+          "time": "2026-11-15 18:46"
+        },
+        {
+          "id": "wny-6",
+          "body": "嗯！这周末见了面一起看，我请客吃部队锅。",
+          "senderId": "owner",
+          "time": "2026-11-15 18:50"
+        }
+      ]
+    },
+    {
+      "id": "chat-m-michi",
+      "app": "messages",
+      "title": "michi",
+      "participants": [
+        "michi",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "mi-1",
+          "body": "新一季的剧本开始拍了。收工的时候会抬头看月亮，想起你说过，首尔的月亮和东京是同一种安静。",
+          "senderId": "michi",
+          "time": "2022-03-14 23:20",
+          "hidden": true
+        },
+        {
+          "id": "mi-2",
+          "body": "michi，我们都好好的，就是对那段日子最好的交代。",
+          "senderId": "owner",
+          "time": "2022-03-15 00:02",
+          "hidden": true
+        },
+        {
+          "id": "mi-3",
+          "body": "嗯。不用回复我。往前走，别回头。",
+          "senderId": "michi",
+          "time": "2022-03-15 00:07",
+          "hidden": true
+        },
+        {
+          "id": "mi-4",
+          "body": "你也一样。要成为很厉害的大人。",
+          "senderId": "owner",
+          "time": "2022-03-15 00:09",
+          "hidden": true
+        },
+        {
+          "id": "mi-5",
+          "body": "会的。谢谢你陪我走过那两年。——michi",
+          "senderId": "michi",
+          "time": "2022-03-15 00:11",
+          "hidden": true
         }
       ]
     }
   ],
   "content": {
-    "phone": [
+    "notes": [
       {
-        "id": "test-item-phone",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "contacts": [
+        "id": "note-todo",
+        "title": "11月15日 待办",
+        "body": "□ 人气歌谣 舞台（结束后把手机放好！！）\n□ 给妈妈回电话（参鸡汤后续）\n□ 《明珠》副歌第三遍哼唱录给知勋哥\n□ 记得把练习室钥匙的事回复娜荣姐\n□ 睡前拉伸 10 分钟，不许偷懒"
+      },
       {
-        "id": "test-item-contacts",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "note-draft-1",
+        "title": "词曲草稿 《冬日的信》v3",
+        "body": "【主歌】\n首尔的冬天来得比香港早\n你寄来的围巾还留着绿茶的味道\n\n【副歌】\n如果思念有形状\n它应该是你围巾绕两圈的样子\n\n（知勋哥说：空的地方是留给呼吸的）"
+      },
+      {
+        "id": "note-draft-2",
+        "title": "词曲草稿 《明珠》v1",
+        "body": "【未完成】\n维多利亚港的灯 是她十八岁的妆\n她说 女孩子要像明珠\n先学会照亮自己 再去照亮别人\n\n姑姑 我写到这里就哭了\n副歌还没有想好\n（想留给 2015 年的那个夏天）",
+        "hidden": true
+      },
+      {
+        "id": "note-practice",
+        "title": "舞台排练记录 · 11月",
+        "body": "周一：主打歌 定点修正（明浩哥对比视频 ✓）\n周三：Unit 舞蹈 走位 v2\n周五：Ending pose 定住 3 秒（顺荣哥打分 8.5/10）\n备注：转身时左手记得收，别打到胜宽哥"
+      },
+      {
+        "id": "note-hk",
+        "title": "想带回香港吃的东西清单",
+        "body": "1. 姑姑家的锅贴\n2. 中环的丝袜奶茶\n3. 妈妈煲的汤（这个不算『吃』也算！）\n4. 俊辉哥说的那家虾饺\n5. 冰室菠萝油（爸爸说少喝冻的……奶茶算冻的吗）"
+      },
+      {
+        "id": "note-trainee",
+        "title": "练习生日记 · 2014年7月",
+        "body": "今天练到凌晨两点，脚上又多了两个水泡。娜荣姐把她仅剩的鸡蛋给了我，洁琼姐说要不然我们三个一起逃走吧，说着说着自己先笑了。\n爸爸说，两年内出不了道就回家读书。可是我不想回去，我想唱歌给很多人听。\n今天也要加油，夏璘啊。",
+        "hidden": true
+      },
+      {
+        "id": "note-private",
+        "title": "私人随笔 · 加密",
+        "body": "【给姑姑】\n姑姑，别人都叫你『香港明珠』，可我第一次见你，你只是蹲下来帮我系鞋带的姑姑。你把聚光灯给了我，自己站在灯的外面。如果我有一天真的发光，那光里一定有你的一份。\n\n【给那段安静的过往】\n谢谢你在我不被看见的时候看见我。我们没有输给谁，只是都选择了自己要走的路。愿你被世界温柔以待，michi。\n\n【给自己】\n李夏璘，不管你是 JiYe、Serena，还是第十四个名字——你熬过的每一天，都算数。",
+        "hidden": true,
+        "password": "2015"
       }
     ],
     "photos": [
       {
-        "id": "test-item-photos",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "camera": [
+        "id": "photo-stage",
+        "title": "照片 · 人气歌谣 Ending 定点",
+        "body": "2026.11.08 SBS 人气歌谣，第 37 次 ending pose，顺荣哥打分 8.5。"
+      },
       {
-        "id": "test-item-camera",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "safari": [
+        "id": "photo-practice",
+        "title": "照片 · 练习室深夜",
+        "body": "凌晨一点的练习室，白板上是知勋哥的和弦笔记。"
+      },
       {
-        "id": "test-item-safari",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "notes": [
+        "id": "photo-family",
+        "title": "照片 · 宿舍聚餐",
+        "body": "珉奎哥的拉面 + 妈妈寄来的参鸡汤，14 个人的小聚餐。"
+      },
       {
-        "id": "test-item-notes",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "photo-hk",
+        "title": "照片 · 维多利亚港夜景",
+        "body": "去年回香港时姑姑拍的。她说：明珠的侄女，也要记得自己会发光。"
+      },
+      {
+        "id": "photo-trainee",
+        "title": "照片 · 2014 练习生合影",
+        "body": "2014.07 Pledis 地下练习室。周洁琼、林娜荣，还有笑得最傻的李夏璘。那年我们都在等一个不知道会不会来的出道位。",
+        "hidden": true
       }
     ],
     "calendar": [
       {
-        "id": "test-item-calendar",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "cal-1",
+        "title": "日程 · 人气歌谣 打歌舞台",
+        "body": "2026-11-15(日) 06:30 上班 / 08:40 彩排 / 12:55 直播"
+      },
+      {
+        "id": "cal-3",
+        "title": "日程 · Woozi 制作会议",
+        "body": "11-15(日) 15:00 练习室 C，带《明珠》《冬日的信》词稿"
+      },
+      {
+        "id": "cal-2",
+        "title": "日程 · 电台采访《音意浓浓》",
+        "body": "11-16(一) 15:00-16:00 与 Woozi 同行，聊《明珠》创作幕后"
+      },
+      {
+        "id": "cal-4",
+        "title": "日程 · 姑姑一家到访首尔",
+        "body": "12-24 姑姑与郭先生飞首尔，一起过冬至。记得去机场接！！"
       }
     ],
-    "mail": [
+    "phone": [
       {
-        "id": "test-item-mail",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "clock": [
+        "id": "calllog-1",
+        "title": "姑姑 Julie",
+        "body": "昨天 22:41 · 通话 25 分钟 · 话题：冬至回家、锅贴、随笔",
+        "kind": "call"
+      },
       {
-        "id": "test-item-clock",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reminders": [
+        "id": "calllog-2",
+        "title": "妈妈",
+        "body": "11-13 12:10 · 通话 8 分钟 · 话题：参鸡汤到货、少喝冰美式",
+        "kind": "call"
+      },
       {
-        "id": "test-item-reminders",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "files": [
-      {
-        "id": "test-item-files",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "music": [
-      {
-        "id": "test-item-music",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "maps": [
-      {
-        "id": "test-item-maps",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weather": [
-      {
-        "id": "test-item-weather",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "wallet": [
-      {
-        "id": "test-item-wallet",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "health": [
-      {
-        "id": "test-item-health",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "find": [
-      {
-        "id": "test-item-find",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calculator": [
-      {
-        "id": "test-item-calculator",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "settings": [
-      {
-        "id": "test-item-settings",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weibo": [
-      {
-        "id": "test-item-weibo",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "redbook": [
-      {
-        "id": "test-item-redbook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "douyin": [
-      {
-        "id": "test-item-douyin",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "bilibili": [
-      {
-        "id": "test-item-bilibili",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "alipay": [
-      {
-        "id": "test-item-alipay",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "taobao": [
-      {
-        "id": "test-item-taobao",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netease": [
-      {
-        "id": "test-item-netease",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "delivery": [
-      {
-        "id": "test-item-delivery",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "calllog-3",
+        "title": "洪室长",
+        "body": "今天 07:30 · 通话 2 分钟 · 话题：明日行程确认",
+        "kind": "call"
       }
     ],
     "forum": [
       {
-        "id": "test-item-forum",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "weverse-1",
+        "title": "致 CARAT 💎",
+        "body": "今天的舞台结束啦。风有点大，但是看到大家的灯牌，就觉得冬天也可以很暖。第 14 个位置的我，被 13 个人和一整片灯海护着。谢谢你们。晚安。",
+        "comments": [
+          "CARAT_1117: 智艺姐姐辛苦了！",
+          "diamond_edge: ending 定点本命！",
+          "석화_97: 冬天也要热热闹闹的"
+        ]
+      },
+      {
+        "id": "weverse-2",
+        "title": "【成员联合直播预告】",
+        "body": "今晚 22:00 全员上线，聊新专辑《明珠》的幕后。—— 来自 Weverse 通知",
+        "sender": "SEVENTEEN"
+      },
+      {
+        "id": "weverse-3",
+        "title": "李知勋的动态",
+        "body": "《明珠》demo 的第二版今晚发给大家。里面有一段哼唱，是这歌能出生的原因。",
+        "sender": "woozi_woo",
+        "comments": [
+          "CARAT_1117: 期待！",
+          "min9: 是智艺的哼唱吗"
+        ]
       }
     ],
     "instagram": [
       {
-        "id": "test-item-instagram",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "tiktok": [
+        "id": "insta-1",
+        "title": "帖子 · 舞台花絮",
+        "body": "black on black 🖤 今天的主打舞台。📷 by 八哥（徐明浩）",
+        "likes": 48210
+      },
       {
-        "id": "test-item-tiktok",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "insta-2",
+        "title": "快拍 · 休息室",
+        "body": "15s 视频：休息室沙发上的手机链晃啊晃。配文：我的手机今天特别乖，我一定不会弄丢它 :)",
+        "meta": {
+          "story": "true"
+        }
+      },
+      {
+        "id": "insta-3",
+        "title": "帖子 · 香港回忆",
+        "body": "Victoria Harbour 🌃 姑姑说，明珠要先照亮自己。#hongkong #home",
+        "likes": 51320
       }
     ],
     "twitter": [
       {
-        "id": "test-item-twitter",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "x-1",
+        "title": "时间线 · @PLEDIS_STAFF 转发",
+        "body": "转发 SEVENTEEN 官方：新专辑《明珠》即将上线。14 个人的冬天，请多关照 💎"
+      }
+    ],
+    "music": [
+      {
+        "id": "music-1",
+        "title": "歌单 · 练习室充电站",
+        "body": "1. Joshua 哥的未发表 demo\n2. 知勋哥给的参考曲 12 首\n3. BamBam 哥推荐的泰国歌单\n4. 写歌循环：姑姑 1992 年的主打歌《明珠》"
+      },
+      {
+        "id": "music-demo",
+        "title": "Demo · 《冬日的信》15s",
+        "body": "哼唱小样 · 11-15 凌晨 3:04 录制。副歌那句还破音了，但是情绪是对的。",
+        "hidden": true
       }
     ],
     "youtube": [
       {
-        "id": "test-item-youtube",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "snapchat": [
-      {
-        "id": "test-item-snapchat",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "facebook": [
-      {
-        "id": "test-item-facebook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reddit": [
-      {
-        "id": "test-item-reddit",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "spotify": [
-      {
-        "id": "test-item-spotify",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "yt-1",
+        "title": "播放列表 · 最近观看",
+        "body": "① 我们出道舞台 reaction（第 108 遍）\n② 姑姑 1992《明珠》MV 修复版\n③ 瀚率推荐：歌词解析 video"
       }
     ],
     "netflix": [
       {
-        "id": "test-item-netflix",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "nf-1",
+        "title": "我的片单 · 继续看",
+        "body": "《请回答1997》E09 —— 和妈妈视频的时候一起看的，她还认出了里面的蓝天通话机。"
       }
     ],
-    "pinterest": [
+    "tiktok": [
       {
-        "id": "test-item-pinterest",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "tk-1",
+        "title": "记录 · 收藏",
+        "body": "保存：#97line 舞蹈 challenge 合集（BamBam 哥发起的那条排第一）"
       }
     ],
-    "threads": [
+    "safari": [
       {
-        "id": "test-item-threads",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "sf-1",
+        "title": "历史记录 · Naver 搜索",
+        "body": "① '세븐틴 지예 직캠'（偷偷看自己的直拍评论）\n② '진주 명주 뜻'（查『明珠』的韩语写法）\n③ '홍콩 국제공항 12월 항공권'"
       },
       {
-        "id": "test-threads-message-1",
-        "title": "测试会话1",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人1",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-1",
-        "title": "测试动态1",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户1",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-2",
-        "title": "测试会话2",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人2",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-2",
-        "title": "测试动态2",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户2",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-3",
-        "title": "测试会话3",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人3",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-3",
-        "title": "测试动态3",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户3",
-        "meta": {
-          "activityType": "reply"
-        }
+        "id": "sf-2",
+        "title": "书签 · 购物",
+        "body": "① 당근마켓(Karrot)：中古木吉他 ₩120,000\n② Ably：收藏了同款手机链\n③ Musinsa：给李灿的生日礼物（帽T）已下单\n④ Coupang：参鸡汤补货"
       }
     ],
-    "appstore": [
+    "taobao": [
       {
-        "id": "test-appstore",
-        "title": "测试内容",
-        "body": "这是一条测试内容。"
+        "id": "cp-1",
+        "title": "订单 · 已送达",
+        "body": "参鸡汤礼盒 ×2 箱 —— 11-13 签收（妈妈寄的到货追加）"
+      },
+      {
+        "id": "cp-2",
+        "title": "订单 · 配送中",
+        "body": "暖手宝 ×14（成员每人一个，冬天练习室太冷）—— 预计 11-16 送达"
+      }
+    ],
+    "delivery": [
+      {
+        "id": "bm-1",
+        "title": "订单 · 昨天",
+        "body": "参鸡汤定食 ×1 —— 备注少盐，被珉奎哥分走一半"
+      }
+    ],
+    "wallet": [
+      {
+        "id": "wl-1",
+        "title": "交易 · Kakao Pay",
+        "body": "11-15 09:12 给全圆佑转 ₩5,500 —— 备注：谢谢皮肤"
+      },
+      {
+        "id": "wl-2",
+        "title": "交易 · Naver Pay",
+        "body": "11-12 21:00 给姑姑送花礼 ₩52,000 —— 备注：姑丈生日快乐"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "rm-1",
+        "title": "今天 · 计划",
+        "body": "☑ 九点和圆佑哥双排（皮肤已经收了）\n☐ 睡前给姑姑发今天的照片\n☐ 手机链检查一遍（别再弄丢手机!!）"
+      },
+      {
+        "id": "rm-2",
+        "title": "周末 · 计划",
+        "body": "☐ 和廷祐哥说的甜品店打卡\n☐ 给《明珠》写完副歌"
       }
     ]
   },
-  "variables": {},
-  "events": [],
-  "tests": []
+  "variables": {
+    "looked": false
+  },
+  "events": [
+    {
+      "id": "start",
+      "label": "开场通知",
+      "type": "start",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "KakaoTalk：13 条新消息（有 1 条来自姑姑）"
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "微信：文俊辉发来消息"
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "Weverse：成员联合直播预告 22:00"
+        }
+      ]
+    },
+    {
+      "id": "ev-read-draft1",
+      "label": "读到《冬日的信》",
+      "event": "read",
+      "target": "note-draft-1",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "note-draft-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "备忘录：一篇新的词曲草稿《明珠》已解锁"
+        }
+      ]
+    },
+    {
+      "id": "ev-read-draft2",
+      "label": "读到《明珠》草稿",
+      "event": "read",
+      "target": "note-draft-2",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "music-demo",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "音乐：未完成的 Demo 小样已解锁"
+        }
+      ]
+    },
+    {
+      "id": "ev-read-jieqiong",
+      "label": "周洁琼的回忆",
+      "event": "read",
+      "target": "wjq-1",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "photo-trainee",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "相册：一张 2014 年的练习生合影已解锁"
+        }
+      ]
+    },
+    {
+      "id": "ev-read-nayoung",
+      "label": "林娜荣的钥匙",
+      "event": "read",
+      "target": "wny-3",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "note-trainee",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "备忘录：练习生日记已解锁"
+        }
+      ]
+    },
+    {
+      "id": "ev-read-michi-card",
+      "label": "通讯录最底部的名片",
+      "event": "read",
+      "target": "michi-card",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "mi-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mi-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mi-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mi-4",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "mi-5",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "信息：一段安静的旧对话已解锁"
+        }
+      ]
+    },
+    {
+      "id": "ev-read-seungkwan",
+      "label": "胜宽的梗图",
+      "event": "read",
+      "target": "ksw-1",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "夫胜宽：你也笑了吧？我就知道 🙂"
+        }
+      ]
+    },
+    {
+      "id": "ev-read-julie-hint",
+      "label": "姑姑的密码提示",
+      "event": "read",
+      "target": "kgu-6",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "note-private",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "备忘录：一篇加密随笔已解锁（需要密码）"
+        }
+      ]
+    },
+    {
+      "id": "ev-read-hk",
+      "label": "香港清单",
+      "event": "read",
+      "target": "note-hk",
+      "next": [
+        "delay-call-mom"
+      ]
+    },
+    {
+      "id": "delay-call-mom",
+      "label": "妈妈来电",
+      "delayMs": 1000,
+      "type": "delay",
+      "actions": [
+        {
+          "type": "call",
+          "key": "call-mom",
+          "value": "妈妈"
+        }
+      ]
+    },
+    {
+      "id": "ev-call-answered",
+      "label": "接听妈妈来电",
+      "event": "callAnswered",
+      "target": "call-mom",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "妈妈：夏璘啊，听到你声音就放心了。早点睡，别又熬夜写歌。"
+        }
+      ]
+    },
+    {
+      "id": "ask-return",
+      "label": "她发来消息",
+      "event": "read",
+      "target": "note-todo",
+      "actions": [
+        {
+          "type": "message",
+          "key": "kakao",
+          "value": "JiYe：那个……你是不是捡到了我的手机？我好像把它落在休息室沙发上了 😭 明天还有行程，可以麻烦你吗？"
+        }
+      ],
+      "next": [
+        "choice-return"
+      ]
+    },
+    {
+      "id": "choice-return",
+      "label": "如何回应？",
+      "type": "choice",
+      "next": [
+        "ending-return",
+        "look-more"
+      ]
+    },
+    {
+      "id": "look-more",
+      "label": "再看一会儿",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "looked",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "你决定再多看一会儿……"
+        }
+      ],
+      "next": [
+        "delay-ask2"
+      ]
+    },
+    {
+      "id": "delay-ask2",
+      "label": "她的第二条消息",
+      "delayMs": 1000,
+      "type": "delay",
+      "actions": [
+        {
+          "type": "message",
+          "key": "kakao",
+          "value": "JiYe：还在吗？不着急，你慢慢看。……不过相册第 4 张不许看（开玩笑的）"
+        }
+      ],
+      "next": [
+        "choice-return-2"
+      ]
+    },
+    {
+      "id": "choice-return-2",
+      "label": "要归还了吗？",
+      "type": "choice",
+      "next": [
+        "ending-return"
+      ]
+    },
+    {
+      "id": "ev-read-note-private",
+      "label": "加密随笔",
+      "event": "read",
+      "target": "note-private",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "你解开了她的私人随笔……"
+        }
+      ],
+      "next": [
+        "choice-hidden"
+      ]
+    },
+    {
+      "id": "choice-hidden",
+      "label": "读完之后",
+      "type": "choice",
+      "next": [
+        "ending-hidden",
+        "ending-return"
+      ]
+    },
+    {
+      "id": "ending-return",
+      "label": "温暖归还",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "温暖归还：你把手机轻轻放回休息室的沙发。屏幕亮起，锁屏壁纸是维多利亚港的夜。不久后收到一条短信：『谢谢你，陌生人。祝你也被这个世界温柔以待。—— JiYe』"
+        }
+      ]
+    },
+    {
+      "id": "ending-hidden",
+      "label": "智艺的独白",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "智艺的独白：你读完了那篇加密随笔，记下了她对姑姑、对过往、对自己的心里话，然后悄悄把手机放回原处。有些温柔，不必署名。"
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "name": "日常圆满结局（直接归还）",
+      "steps": [
+        {
+          "event": "read",
+          "target": "note-todo"
+        },
+        {
+          "choose": "ending-return"
+        }
+      ],
+      "ending": "温暖归还：你把手机轻轻放回休息室的沙发。屏幕亮起，锁屏壁纸是维多利亚港的夜。不久后收到一条短信：『谢谢你，陌生人。祝你也被这个世界温柔以待。—— JiYe』",
+      "expectUnlocked": []
+    },
+    {
+      "name": "日常圆满结局（再看一会儿）",
+      "steps": [
+        {
+          "event": "read",
+          "target": "note-todo"
+        },
+        {
+          "choose": "look-more"
+        },
+        {
+          "advanceMs": 1000
+        },
+        {
+          "choose": "ending-return"
+        }
+      ],
+      "ending": "温暖归还：你把手机轻轻放回休息室的沙发。屏幕亮起，锁屏壁纸是维多利亚港的夜。不久后收到一条短信：『谢谢你，陌生人。祝你也被这个世界温柔以待。—— JiYe』",
+      "expectUnlocked": []
+    },
+    {
+      "name": "隐藏结局（姑姑提示 -> 密码 -> 独白）",
+      "steps": [
+        {
+          "event": "read",
+          "target": "kgu-6"
+        },
+        {
+          "event": "read",
+          "target": "note-private",
+          "password": "2015"
+        },
+        {
+          "choose": "ending-hidden"
+        }
+      ],
+      "ending": "智艺的独白：你读完了那篇加密随笔，记下了她对姑姑、对过往、对自己的心里话，然后悄悄把手机放回原处。有些温柔，不必署名。",
+      "expectUnlocked": [
+        "note-private"
+      ]
+    },
+    {
+      "name": "全收集探索线（全部分支 + 来电 + 归还）",
+      "steps": [
+        {
+          "event": "read",
+          "target": "wjq-1"
+        },
+        {
+          "event": "read",
+          "target": "photo-trainee"
+        },
+        {
+          "event": "read",
+          "target": "wny-3"
+        },
+        {
+          "event": "read",
+          "target": "note-trainee"
+        },
+        {
+          "event": "read",
+          "target": "michi-card"
+        },
+        {
+          "event": "read",
+          "target": "mi-1"
+        },
+        {
+          "event": "read",
+          "target": "note-draft-1"
+        },
+        {
+          "event": "read",
+          "target": "note-draft-2"
+        },
+        {
+          "event": "read",
+          "target": "music-demo"
+        },
+        {
+          "event": "read",
+          "target": "note-hk"
+        },
+        {
+          "advanceMs": 1000
+        },
+        {
+          "event": "callAnswered",
+          "target": "call-mom"
+        },
+        {
+          "event": "read",
+          "target": "kgu-6"
+        },
+        {
+          "event": "read",
+          "target": "note-private",
+          "password": "2015"
+        },
+        {
+          "event": "read",
+          "target": "note-todo"
+        },
+        {
+          "choose": "ending-return"
+        }
+      ],
+      "ending": "温暖归还：你把手机轻轻放回休息室的沙发。屏幕亮起，锁屏壁纸是维多利亚港的夜。不久后收到一条短信：『谢谢你，陌生人。祝你也被这个世界温柔以待。—— JiYe』",
+      "expectUnlocked": [
+        "photo-trainee",
+        "note-trainee",
+        "mi-1",
+        "note-draft-2",
+        "music-demo",
+        "note-private"
+      ]
+    }
+  ]
 }
